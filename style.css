@@ -233,7 +233,7 @@ input[type=text] {
 
 .rating {
     position: relative;
-
+    right: 100px;
     margin-left: 17px;
     direction: rtl;
     margin-top: 10px;
