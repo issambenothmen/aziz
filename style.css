@@ -173,7 +173,7 @@ input[type=text] {
     height: auto;
     margin-top: 30px;
     margin-left: 30px;
-    width: 50%;
+    width: 75%;
     background-color: rgb(255, 255, 255);
     border-top-right-radius: 40px 40px;
     border-bottom-right-radius: 40px 40px;
@@ -315,4 +315,14 @@ input[type=text] {
 
 .menu-top ul li a:hover {
     color: red;
+}
+
+@media (max-width:332px) {
+    .homborger-trending {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .rating{
+        padding:0;
+    }
 }
